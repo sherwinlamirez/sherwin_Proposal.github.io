@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.css" href="css/bootstrap.min.css" href="css/bootstrap-theme.css" href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="PageDesign1.css">
+	<script src="JS/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		<title>AskTech</title>
+</head>
+<body>
+ 
+<!--header w/ img and search bar and 2 tabs-->
+	<div id="header">
+		<div class="col-sm-12">
+            <img src="img/AT-Logo.png"/>
+
+			<button type="button" class="btn">Login</button>
+			<button type="button" class="btn" id="btn1">Signup</button>
+
+
+            <input type="text" name="search" placeholder="Search..">
+
+		</div>
+	</div>
+
+<!--Tabs and dropdowns-->
+<div class="second">
+	<div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Components<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Processor</a></li>
+            <li><a href="#">Motherboard</a></li>
+            <li><a href="#">Memory</a></li>
+            <li><a href="#">Hard Disk</a></li>
+            <li><a href="#">Graphic Card</a></li>
+            <li><a href="#">Power Supply</a></li>
+            <li><a href="#">Casing</a></li>
+            <li><a href="#">Accesories</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Peripherals<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Mouse</a></li>
+            <li><a href="#">Keyboard</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">AVR & UPS</a></li>
+            <li><a href="#">Monitor</a></li>
+            <li><a href="#">Printer & Scanner</a></li>
+            <li><a href="#">Projector</a></li>
+            <li><a href="#">Speaker</a></li>
+            <li><a href="#">Storage Devices</a></li>
+            <li><a href="#">Webcam</a></li>
+            <li><a href="#">Software</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Laptops<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Personal</a></li>
+            <li><a href="#">Home Office</a></li>
+            <li><a href="#">Multimedia</a></li>
+            <li><a href="#">Gaming</a></li>
+            <li><a href="#">Laptop Memory</a></li>
+            <li><a href="#">Laptop Accessory</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gadgets<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Smartphones</a></li>
+            <li><a href="#">Tablet</a></li>
+            <li><a href="#">Gadget Accessories</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Networking<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Router</a></li>
+            <li><a href="#">Switch</a></li>
+            <li><a href="#">Lan Cables</a></li>
+            <li><a href="#">Pocket Wifi</a></li>
+            <li><a href="#">Wifi Connection</a></li>
+          </ul>
+        </li>
+
+      </ul>	
+      <ul class="nav navbar-nav navbar-right">
+      	<li class="right"><a  class="active" href="index.html">Home</a>
+		</li>
+		<li class="right"><a href="about.html">About</a>
+		</li>
+	  </ul>
+	  </div>		
+</div>
+
+<!--body section-->
+	<div id="body">
+		<div class="col-sm-12">
+
+      <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>New Items</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/1.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/2.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/3.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/4.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/5.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/6.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/7.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/8.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/9.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/10.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/11.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/12.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+		</div>
+	</div>
+
+
+<!--Footer-->
+	<div id="footer" style="float: both;">
+		<div class="col-sm-12">
+			<!--Developer-->
+			<h4>DEVELOPERS</h4>
+			<p><strong>Alvin James M. Gili    |    Sherwin B. Lamirez</strong></p>
+		</div>
+	</div>
+
+
+<!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Game Royal Optimus U1 Black</h2>
+                            <hr class="star-primary">
+                            <img src="img/1-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <img src="img/1-1-1.jpg" class="img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Game Royal Optimus U2 Black</h2>
+                            <hr class="star-primary">
+                            <img src="img/2-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <img src="img/1-1-1.jpg" class="img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Game Royal Optimus U3 Black</h2>
+                            <hr class="star-primary">
+                            <img src="img/3-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <img src="img/1-1-1.jpg" class="img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Game Royal Optimus U3 Black</h2>
+                            <hr class="star-primary">
+                            <img src="img/4-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <img src="img/1-1-1.jpg" class="img-centered" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>HELL SPECTRUM (BLACK/RED)</h2>
+                            <hr class="star-primary">
+                            <img src="img/5-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <img src="img/5-1-1.jpg" class="img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>GAME ROYALE MAXIMUS V10 - BLACK CASING W/OUT PSU</h2>
+                            <hr class="star-primary">
+                            <img src="img/6-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <img src="img/1-1-1.jpg" class="img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Game Royal Advance A5 Black</h2>
+                            <hr class="star-primary">
+                            <img src="img/7-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <span style="margin-left: -100px; "> <img src="img/7-1-1.jpg" class="img-centered" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ASUS VX239H 23" LED IPS MONITOR</h2>
+                            <hr class="star-primary">
+                            <img src="img/8-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <span style="margin-left: -200px; "> <img src="img/8-1-1.jpg" class="img-centered" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>LENOVO IDEAPAD G5080 (80E501DVPH) SILVER I5-5200U 2.2GHZ 4GB 1TB ODD 15.6" LED INTEL HD 4400 WIN</h2>
+                            <hr class="star-primary">
+                            <img src="img/9-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <span style="margin-left: 20px;  " ><img src="img/9-1-1.jpg" class="img-centered" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ASUS X453SA-WX154T WIN10 CEL N3050 2.16GHZ 2GB 500GB HDD 14" HD DVDRW</h2>
+                            <hr class="star-primary">
+                            <img src="img/10-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <img src="img/10-1-1.jpg" class="img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>MSI Z97A GAMING 7 1150 DDR3 SATA II GLAN</h2>
+                            <hr class="star-primary">
+                            <img src="img/11-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <span style="margin-left: -200px;"><img src="img/11-1-1.jpg" class="img-centered" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>INTEL CORE I7 6700K 4GHZ LGA 1151 SKYLAKE</h2>
+                            <hr class="star-primary">
+                            <img src="img/12-1.jpg" class="img-centered" alt="">
+                            <hr class="star-second">
+                            <h2>Specs</h2>
+                            <img src="img/12-1-1.jpg" class="img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
